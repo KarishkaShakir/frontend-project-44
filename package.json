@@ -1,16 +1,16 @@
 {
   "name": "@hexlet/code",
-  "version": "10.8.2",
+  "version": "10.8.3",
   "description": "frontend-project-44",
   "bin": {
-  "brain-games": "bin/brain-games.js"
-},
+    "brain-games": "bin/brain-games.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-   "type": "git",
+    "type": "git",
     "url": "git+https://github.com/KarishkaShakir/frontend-project-44.git"
   },
   "author": "KarishkaShakir",
@@ -21,6 +21,7 @@
   "type": "module",
   "homepage": "https://github.com/KarishkaShakir/frontend-project-44#readme",
   "dependencies": {
-    "bin": "^0.0.0"
+    "bin": "^0.0.0",
+    "readline-sync": "^1.4.10"
   }
 }
